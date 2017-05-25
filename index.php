@@ -1,15 +1,17 @@
 <?php
-    include ("constantes.php");
-    include (".php");
+include("constantes.php");
+include("librerias.php");
 ?>
-
 <html>
     <head>
         <meta charset="UTF-8">
         <title></title>
     </head>
     <body>
-        <a href="Formularios/formularioActualizar.php">actualizar clave usuario</a>
-        <a href="Formularios/formularioProducto.php">cambiar producto</a>
+        <a href="formularios/formcambiarclave.php">Cambiar clave de usuario</a>
+        <a href="formularios/formagregarproducto.php"> Agregar Producto</a>
+        <?php
+        echo PATH;
+        ?>
     </body>
 </html>
